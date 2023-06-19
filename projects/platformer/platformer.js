@@ -66,6 +66,7 @@ $(function () {
     createCollectable("grace", 200, 250, 3, 0.9);
     createCollectable("steve", 600, 450, 4, 1.0);
     createCollectable("grace", 850, 150, 2, 0.9);
+    createCollectable("steve",800, 350, 3, 0.9);
 
 
 
@@ -76,6 +77,7 @@ $(function () {
     // example usage: createCannon(side, position, delay, width, height)
     createCannon("right", 800, 200);
     createCannon("top", 700, 700);
+    createCannon("left", 300, 800);
 
 
 
